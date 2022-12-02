@@ -1,0 +1,123 @@
+body{
+    font: Verdana, Arial, Helvetica, Sans-Serif;
+    font-size: 12pt;
+    color: #444;
+    background-color: rgba(224, 179, 0, 0.799);
+    padding: 0px;
+}
+
+header
+{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.437);
+    color: rgb(0, 0, 0);
+    padding: 1.0em;
+    border: 0px;
+}
+
+.topnav {
+    position: relative;
+    background-color: rgba(51, 51, 51, 0.717);
+    overflow: hidden;
+  }
+.banniere{
+  border : 1px solid black;
+  margin: auto;
+  width: 21.20%;
+}
+.Bordure{
+  border : 1px solid black;
+  margin: auto;
+  width: 32%;
+}
+img {
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+img:hover {
+  transform:scale(1.09);
+}
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  section{
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 75px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #44ff0098;
+    background-color: rgba(255, 255, 255, 0.437);
+}
+
+  .topnav a:hover {
+    background-color: rgba(136, 206, 70, 0.751);
+    color: black;
+  }
+ 
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topnav-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+
+
+footer
+{
+    background-color: #283593;
+    color: #fff;
+    border: 0px;
+    padding: 0.5em 1.0em;
+}
+article
+{
+    text-align: center;
+    padding: 0.2em 0em 3em;
+}
+article h2
+{
+    font-size: 1.4em;
+    margin: 1.5em 0.8em 0;
+    color: #000000c2;
+}
+article h3
+{
+    font-size: 1.0em;
+    font-style: bold;
+    margin: 0em 0.0em 0;
+    color: #000000;
+    text-align: center;
+}
